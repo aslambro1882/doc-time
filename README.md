@@ -4,7 +4,7 @@ Netlify Deploy Link: https://doctime-by-maruf.netlify.app/?fbclid=IwAR33g12uFVQl
 - - -
 
 ## About Project
-This project made with rect. in this project i have used 4 components. 
+This project made with react. in this project i have used 4 components. 
 which are 
 * Header 
 * Body 
