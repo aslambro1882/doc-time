@@ -1,6 +1,5 @@
 # Application Name: DocTime
 
-- - 
 ## Live Site
 https://doctime-by-maruf.netlify.app/?fbclid=IwAR33g12uFVQlzxnVeklbSkgvONKBAKi201gkTom48BaNGNrEn2otRpWWTKE  
 
