@@ -1,0 +1,34 @@
+.cart{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.carted-prod{
+    display: flex;
+    background-color: turquoise;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 50px;
+}
+.carted-prod img{
+    margin-top: 5px;
+    height: 47px;
+    object-fit:fill;
+}
+.carted-prod button{
+    margin-right: 10px;
+    background-color: goldenrod;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+}
+.user{
+    color: rgb(93, 77, 165);
+}
+
+

@@ -1,0 +1,105 @@
+.profile-info{
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: box-shadow .5s;
+
+}
+.profile-info:hover{
+    box-shadow: 0 0 10px;
+    
+}
+
+.profile-image{
+    text-align: center;
+    background-color: rgba(15, 15, 15, 0.027);
+}
+.profile-image img{
+    /* padding: 15px; */
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid rgb(37,34,93);
+}
+.card-info{
+    height: 160px;
+}
+.card-info h4{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(37,34,93);
+}
+.card-info p{
+    margin: 0;
+}
+.card-info h3{
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.button-container{
+    margin-top: 2px;
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, 0.747);
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    transition: box-shadow .5s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-container:hover .button-container{
+    visibility: visible;
+    animation-name: buttonContainer;
+    box-shadow: 0px 0px 10px;
+    animation-duration: .5s;
+}
+@keyframes buttonContainer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.button-container button{
+    width: 75%;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    cursor: pointer;
+    transition: background-color .5s, color .5s, box-shadow .3s;
+}
+.button-container button:hover{
+    background-color: goldenrod;
+    color: black;
+    box-shadow: 0 0 5px;
+}
+.button-container small{
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.facebook{
+    color: rgb(59,89,152);
+}
+.linkedin{
+    color: rgb(14,118,168);
+}
+.instagram{
+    color: rgb(201,61,124);
+}
+
+
+
+
