@@ -10,7 +10,7 @@ const Cart = (props) => {
     const total = cart.reduce((previous, product) => previous + product.fee, 0);
     const handleCart = () => {
         const carted = document.getElementById('carted')
-        carted.style.display = 'none'
+        carted.remove();
     }
 
 
